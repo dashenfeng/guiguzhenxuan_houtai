@@ -11,7 +11,5 @@ onMounted(() => {
 </script>
 
 <style scoped lang="scss">
-h4 {
- color: $color;
-}
+
 </style>

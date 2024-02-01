@@ -17,13 +17,11 @@
       <!-- 顶部导航 -->
       <div class="layout_tabbar" :class="{ fold: LayOutSettingStore.fold ? true : false }">
           <!-- layout组件的顶部导航tabbar -->
-          <!-- <Tabbar></Tabbar> -->
-          顶部导航
+          <Tabbar></Tabbar>
       </div>
       <!-- 内容展示区域 -->
       <div class="layout_main" :class="{ fold: LayOutSettingStore.fold ? true : false }">
-          <!-- <Main></Main> -->
-          内容展示区域
+          <Main></Main>
       </div>
   </div>
 </template>
